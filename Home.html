@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+ 
+    <div  class="col" style="width: 100%; text-align:center; padding:20px; background-color: whitesmoke">
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Academic.html">Academic History</a>
+           
+            
+<div class="dropdownh">
+    
+    <button onclick="myFunction()" class="dropbtnh">Skills</button>
+    <div id="myDropdown" class="dropdownh-content"> 
+      <a href="currency.html">Currency-Convertor</a>
+      <a href="Forcast.html">Forecaster</a>
+     
+    </div>
+  </div>
+  
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("showh");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtnh')) {
+      var dropdowns = document.getElementsByClassName("dropdownh-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('showh')) {
+          openDropdown.classList.remove('showh');
+        }
+      }
+    }
+  }
+  </script>
+
+
+<a href="contactus.html">Contact Us</a>
+<a href="Aboutus.html">About</a>
+        </nav>
+    </div>
+    
+
+
+    <section style="padding-left: 50px; padding-right: 50px; padding-top: 30px;">
+        <div class="row" style="background-color: #d9d9d9; padding-left: 200px; padding-right: 200px; padding-top: 30px;padding-bottom: 20px;"></div>
+        <div class="row" style="display: flex;"></div>
+    </section>
+
+
+
+
+    <section style="padding-left: 50px; padding-right: 50px; padding-top: 30px; text-align: center;">
+      <div class="row"
+          style="background-color: #d9d9d9; padding-left: 200px; padding-right: 100px; padding-top: 30px;padding-bottom: 20px;">
+         
+         <h1 style="color: black; text-align: center;">My Personal History</h1>
+          <p style="color: black; text-align: left;">My name is Zarq Ali Jarral and i did Bachelors in Computer Science(CS)
+            from Mirpur University Of Science And Technoology (MUST).</p>
+            <p style="color: black; text-align: left;">I did my Intermediate and Matric from Kaplan College.</p>
+            <p style="color: black; text-align: left;">I am planning to enhance my skills in Web Development and lookiing for 
+            a reputable company to work with.</p>
+
+          
+
+      </div>  
+  </section>
+
+
+    <section style="padding-left: 50px; padding-right: 50px; padding-top: 30px; text-align: center;">
+        <div class="row"
+            style="background-color: #d9d9d9; padding-left: 200px; padding-right: 100px; padding-top: 30px;padding-bottom: 20px;">
+           
+           <h1 style="color: black; text-align: center;">This website contains</h1>
+            <p style="color: black; text-align: left;">Home Page</p>
+            <p style="color: black;text-align: left;">Academic Page ->Personal history</p>
+            <p style="color: black; text-align: left;">Skills Page ->Currecny Converter</p>
+            <p style="color: black; text-align: left;">Skills Page ->Forecaster Page</p>
+            <p style="color: black;text-align: left;">Contact Page </p>
+            <p style="color: black;text-align: left;">About Page</p>
+
+        </div>  
+    </section>
+
+    
+    <section style="padding-left: 50px; padding-right: 50px; padding-top: 30px; margin-bottom: 20px; text-align: center;">
+        <div class="row"
+            style="background-color: #d9d9d9; padding-left: 200px; padding-right: 100px; padding-top: 30px;padding-bottom: 80px;">
+                <div class="coll" >
+                    <h2 style="text-decoration: none; text-align: center; color: black;">Courses  </h2>
+                    <select style="background-color:whitesmoke;"class="form-control" name="subject" id="subject">
+                    <option style="text-align: center;"class="form-control"value="" selected="selected">Courses</option>
+                    <option class="form-control"value="" selected="selected">Game Development</option>
+                    <option class="form-control"value="" selected="selected">Android Application Development</option>
+                    <option class="form-control"value="" selected="selected">IOS Application Development</option>
+                    <option class="form-control"value="" selected="selected">WEBGL Application Development</option>
+                    <option class="form-control"value="" selected="selected">XBOX Application Development</option>
+                    </select>
+                </div>
+
+        </div>
+    </section>
+
+    <footer class="footer" style="width: 100%; background-color: whitesmoke; padding: 20px;">
+        <div class="col" style="text-align: center;">
+            <li style="color: chartreuse;"><strong>Indicators</strong></li>
+            <li style="text-decoration: none;"><a href="Academic.html"></a>Academic</li>
+            <li style="text-decoration: none;"><a href="contactus.html"></a>Currency</li>
+            <li style="text-decoration: none;"><a href="Forcast.html"></a>Forcast</li>
+            <li style="text-decoration: none;"><a href="contactus.html"></a>Contact</li>
+            <li style="text-decoration: none;"><a href="Aboutus.html"></a>Aboutus</li>
+        </div>
+        <div class="col" style="text-align: center;">
+            <li style="color: chartreuse;"><strong> Address</strong></li>
+            <li style="text-decoration: none;">Phone:0301-4444444</li>
+            <li style="text-decoration: none;">Phone2:0301-3333333</li>
+            <li style="text-decoration: none;">NewYork Town B,Building A</li>
+            <li style="text-decoration: none;">Riyadh Shameshi,Building 3</li>
+            <li style="text-decoration: none;">Riyadh Shameshi,Building 6</li>
+        </div>
+        <div class="col" style="text-align: center;">
+            <li style="color:chartreuse;"><strong>Contact</strong></li>
+            <li style="text-decoration: none;"><a href="https://www.facebook.com/">  <img src="Images/facebook.png" style="width:20px; " alt="Facebook logo"/>xyz@fb.com</a></li>
+            <li style="text-decoration: none;"><a href="www.gmail.com"><img src="Images/gmail.png" style="width:20px; " alt="Gmail logo"/> xyz@gmail.com</a></li>
+            <li style="text-decoration: none;"><a href="https://twitter.com/"><img src="Images/twitter.png" style="width:20px; height: 20px;" alt="Twitter logo"/> xyz@twiiter.com</a></li>
+            <li style="text-decoration: none;"><a href="https://Linkidin.com/"><img src="Images/Linki.png" style="width:20px; height: 20px;" alt="Twitter logo"/> xyz@Linkidin.com</a></li>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
